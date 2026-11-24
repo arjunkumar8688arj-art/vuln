@@ -1,0 +1,11 @@
+{
+  "description": "Sample Slack alert configuration used by the notification integration tests",
+  "channel": "#billing-alerts",
+  "slackWebhookUrl": "https://hooks.slack.com/services/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",
+  "event": {
+    "type": "invoice.payment_failed",
+    "invoice": "INV-2026-000412",
+    "amount": "1840.00",
+    "currency": "USD"
+  }
+}
